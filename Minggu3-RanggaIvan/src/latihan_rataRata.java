@@ -1,5 +1,5 @@
 import java.util.*;
-public class rataRata {
+public class latihan_rataRata {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         
@@ -23,7 +23,7 @@ public class rataRata {
         }else if(rataRata >= 70){
             hadiah = "Seperangkat uang sebesar Rp. 500.000";
         }else {
-            hadiah = " hadiah hiburan";
+            hadiah = "hadiah hiburan";
         }
         System.out.println("Siswa yang bernama " + nama + " dari hasil perlombaan yang diikutinya dan berhak mendapatkan hadiah " + hadiah);
     }
